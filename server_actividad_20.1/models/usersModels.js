@@ -3,7 +3,7 @@ const mariadb = require("mariadb");
 const pool = mariadb.createPool({ // Adaptar a su configuración
     host: 'localhost',
     user: 'root',
-    password: '************',
+    password: 'Facu_db',
     database: 'actividad20',
     port: '3306'
 });
