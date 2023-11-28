@@ -1,0 +1,22 @@
+{
+  "name": "server_actividad_20.1",
+  "version": "1.0.0",
+  "description": "servidor de la actividad 20.1 JAP",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "facuhdezz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

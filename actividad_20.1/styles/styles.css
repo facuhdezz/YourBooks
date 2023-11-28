@@ -1,0 +1,58 @@
+body{
+    background-image: url("/img/fondo_pizarra.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.form-login{
+    margin-top: 250px;
+    margin-inline: 300px;
+}
+
+.form-registro{
+    margin-top: 150px;
+    margin-inline: 300px;
+}
+
+input:-webkit-autofill{
+    box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+a:hover{
+    letter-spacing: 0.1rem;
+    font-size: 1.05rem;
+}
+
+#acceso-denegado, #user-exists{
+    color: rgb(255, 119, 119);
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.item{
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.imagen{
+    width: 200px;
+}
+
+.item p{
+    font-size: 1.2rem;
+}
